@@ -1,0 +1,40 @@
+.contact{
+	.mapa{
+		width:100%;
+		margin-bottom:40px;
+		img{
+			width:100%;
+		}
+	}
+	.col-md-3{
+		span{
+			color:$naranja;
+		}
+	}
+	form{
+		margin-bottom:50px;
+		.form-group{
+			margin-bottom: 20px;
+			input, textarea{
+				padding:5px;
+				border:1px solid $naranja;
+				border-radius:0;
+				font-family:$fuente;
+				text-tranform:$mayusculas;
+			}
+			textarea{
+				height: 250px;
+				text-tranform:uppercase!important;
+			}
+			
+			
+		}
+		button{
+			border-radius:0;
+			font-size:25px!important;
+			width:100%;
+			border:none;
+			@include boton(5px);
+		}
+	}
+}

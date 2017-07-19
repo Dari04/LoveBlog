@@ -1,0 +1,50 @@
+@media (max-width:768px) {
+	body{
+		overflow-x: hidden;
+		header{
+			button{
+				background:$blanco;
+				span{
+					background:$naranja;
+				}
+			}
+		}
+		.main_content_area{
+			margin-top: 61px;
+			.carousel 
+			img {
+				height: 490px;
+				max-width: 10000%;
+				width: 235%;
+				position: relative;
+				overflow: hidden;
+				right: 70%;
+			}
+			.service_area{ 
+				span{
+					margin-bottom: 9px;
+				}
+				h2{
+					margin-left: 15px;
+				}
+				.single_blog_post{
+					margin-bottom:20px;
+
+				}
+			}
+			.author_text{
+				.author_imagen{
+					width:100%;
+					img{
+						margin:0 83px 20px;
+					}
+				}
+			}
+			.tab-pane{
+				.col-md-3{
+					margin-bottom:20px;
+				}
+			}
+		}		
+	}
+}	

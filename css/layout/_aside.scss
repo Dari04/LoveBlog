@@ -1,0 +1,34 @@
+.aside{
+	h2{
+		@include separador;
+		margin-top:0;
+		color:$naranja;
+
+	}
+	.about_jetro{
+		padding-bottom:20px;
+	}
+	.categories{
+		padding-bottom:20px;
+		margin-top:0;
+		color:$naranja;
+		a{
+			font-weight: 600;
+			color: $negro-oscuro;
+		}
+	}
+	.photo-gallery{
+		padding-bottom:20px;
+		h2{
+			margin-bottom:20px;
+		}
+		.cube{
+			display:inline-block;
+			width:23%;
+			height: 55px;
+			background:$naranja-transparente;
+			border:1px solid $naranja;
+		}
+	}
+
+}

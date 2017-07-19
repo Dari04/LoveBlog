@@ -1,0 +1,14 @@
+.footer{
+
+	.single_footer_container{
+		@include bg-naranja;
+		border-left: 10px solid white;
+    	border-right: 10px solid white;
+	}
+	
+}
+.footer_area{
+	background:$naranja-transparente;
+    z-index: -1;	
+
+}

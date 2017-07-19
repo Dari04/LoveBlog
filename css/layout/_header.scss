@@ -1,0 +1,28 @@
+.header_area{
+	@include bg-blanco($naranja);
+	padding:1% 0;
+	h1{
+		margin:0;
+		color:$naranja;
+		span{
+			color:$naranja-transparente;
+		}
+	}
+	a{
+		font-family:$fuente;
+		color:$gris;
+		font-size:20px;
+		font-weight: 500;
+		&:hover{
+			background:white!important;
+			color:$naranja;
+		}
+	}
+}
+.header_bottom_area{
+	height:70px;
+	background:$naranja-transparente;
+	position: relative;
+    top: 70px;
+    z-index: -1;
+}
